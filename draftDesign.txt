@@ -1,0 +1,22 @@
+See which files are in directory
+Create a directory
+Create a file
+ LIst contents of a file
+
+generateFileSystem() -> creates rootLevel -> Creates defaultTree
+      / rootLevel -> ls(), mkdir(), touch(), rmdir(), rm(), 
+ 
+hash_table<Path, Node*>
+
+Node{
+  Node* parent;
+  vector<Node*> children;
+  string path;
+}
+
+Filesystem {
+  ls, mkdir, touch, rmdir, ...
+  cd
+
+  Node* workingDirectory
+}
